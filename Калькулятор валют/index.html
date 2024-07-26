@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculation">
+            <h1>Калькулятор Валют</h1>
+    
+            <div class="currency-icons">
+                <div class="icon">
+                    <h5>USD</h5>
+                    <div class="usd-span"></div>
+                </div>
+                <div class="icon">
+                    <h5>EUR</h5>
+                    <span class="eur-span"></span>
+                </div>
+                <div class="icon">
+                    <h5>GBP</h5>
+                    <span class="gbp-span"></span>
+                </div>
+            </div>
+    
+            <div class="currency-calculation">
+                <div class="exchangeable">
+                    <span class="calculation-spans">В мене є:</span>
+                    <select name="" class="exchangeable select">
+                        <option value="UAH">Гривня (UAH)</option>
+                        <option value="USD">Долар США (USD)</option>
+                        <option value="EUR">Євро (EUR)</option>
+                        <option value="GBP">Фунт стерлінгів (GBP)</option>
+                    </select>
+                    <input class="exchangeable input" type="text">
+                </div>
+                <div class="exchanged">
+                    <span class="calculation-spans">Я отримаю:</span>
+                    <select name="" class="exchanged select">
+                        <option value="USD">Долар США (USD)</option>
+                        <option value="EUR">Євро (EUR)</option>
+                        <option value="GBP">Фунт стерлінгів (GBP)</option>
+                        <option value="UAH">Гривня (UAH)</option>
+                    </select>
+                    <input class="exchanged input" type="text">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

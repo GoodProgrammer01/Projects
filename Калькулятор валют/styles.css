@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(0, 201, 184);
+}
+
+h5 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.calculation {
+    text-align: center;
+}
+
+.currency-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: solid 1px;
+}
+
+.icon:nth-child(2) {
+    margin-inline: 3rem;
+}
+
+.currency-calculation {
+    display: flex;
+}
+
+.exchangeable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    transform: translate(10px); 
+}
+
+.exchanged {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    transform: translate(-10px); 
+}
+
+.calculation-spans {
+    margin-bottom: 1rem;
+}
+
+.select {
+    margin-bottom: 5rem;
+}
+
+.input {
+    outline: none;
+}
